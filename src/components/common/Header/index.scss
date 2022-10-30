@@ -1,0 +1,21 @@
+.header {
+  position: relative;
+  padding: 1.05rem;
+  border-bottom: 1px solid #444;
+}
+.header-arrow-prev {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 8%;
+  width: 40px;
+  height: 40px;
+  background: url("../../../../static/images/ico_arrow_left.png") 50% 50%
+    no-repeat;
+  background-size: 85%;
+}
+.header-title {
+  text-align: center;
+  font-size: 1.286em;
+  font-weight: bold;
+}

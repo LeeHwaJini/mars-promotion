@@ -1,0 +1,50 @@
+.prj-side-list-area,
+.prj-outsourcing-list-area {
+  padding: 0.5rem 0.643rem;
+  width: 100%;
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  background: url("../../../../static/images/logo_yellow.png") 50% 50% no-repeat;
+  background-size: 50%;
+}
+
+.prj-side-list-area {
+  .prj-icon {
+    width: 52px;
+    height: 16px;
+    background: url("../../../../static/images/ico_side.png") no-repeat;
+    background-size: cover;
+  }
+}
+
+.prj-outsourcing-list-area {
+  .prj-icon {
+    width: 52px;
+    height: 16px;
+    background: url("../../../../static/images/ico_outsourcing.png") no-repeat;
+    background-size: cover;
+  }
+}
+
+.prj-title-content {
+  width: 100%;
+  height: calc(100% - 16px);
+  display: table;
+
+  .prj-title-area {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+
+    .prj-title {
+      width: 100%;
+      font-size: 1em;
+      font-weight: bold;
+      white-space: normal;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+}

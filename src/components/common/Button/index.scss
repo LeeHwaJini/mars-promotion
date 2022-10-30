@@ -1,0 +1,22 @@
+.Button {
+  background-color: #ffd200;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  color: white;
+  padding: 0.5rem;
+
+  &:disabled {
+    background-color: #e0e0e0;
+  }
+}
+
+// size 관련 스타일
+.sm {
+  padding: 4px;
+}
+
+// 테마 관련 스타일
+.secondary {
+  border: 1px solid #000000;
+}
